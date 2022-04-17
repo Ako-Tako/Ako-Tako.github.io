@@ -109,3 +109,87 @@ button {
   height: 100%;
   z-index: -1;
 }
+
+/* NAVBAR */
+#navBar{
+  display:inline-block;
+  margin-top: 40px;
+  white-space: nowrap;
+  justify-content: center;
+  position: absolute;
+}
+#homeDiv{
+  /* display: inline-block; */
+  margin-left: 800px;
+}
+#homeLink{
+  text-decoration: none;
+  font-family: "palatino";
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-right: 50px;
+
+}
+#homeLink:hover{
+  color: #AE6275;
+}
+#loginDiv{
+  /* display: inline-block; */
+  margin-left: 929px;
+}
+#loginLink{
+  text-decoration: none;
+  font-family: "palatino";
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-right: 50px;
+
+}
+#loginLink:hover{
+  color: #CF9690;
+}
+#giveDiv{
+  /* display: inline-block; */
+  margin-left: 1072px;
+
+}
+#giveLink{
+  text-decoration: none;
+  font-family: "palatino";
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-right: 50px;
+}
+#giveLink:hover{
+  color: #9AAF96;
+}
+#findDiv{
+  /* display: inline-block; */
+  margin-left: 1182px;
+}
+#findLink{
+  text-decoration: none;
+  font-family: "palatino";
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-right: 50px;
+}
+#findLink:hover{
+  color: #CFB990;
+}
+#aboutDiv{
+  /* display: inline-block; */
+  margin-left: 1290px;
+
+}
+#aboutLink{
+  text-decoration: none;
+  font-family: "palatino";
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-right: 50px;
+  white-space: nowrap;
+}
+#aboutLink:hover{
+  color: #AF90AF;
+}
