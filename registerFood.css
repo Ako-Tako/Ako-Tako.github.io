@@ -205,10 +205,6 @@ button {
     display: none;
   }
 
-  label {
-    font-size: 26px;
-  }
-
   .flexInputs {
     width: 475px;
   }
@@ -219,10 +215,6 @@ button {
 
   button {
     margin-left: 135px;
-  }
-
-  #hide7 {
-    font-size: 26px;
   }
 
 }

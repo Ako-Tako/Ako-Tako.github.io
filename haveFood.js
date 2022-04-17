@@ -25,9 +25,9 @@ function submitPost() {
     document.getElementById("displayPost").appendChild(newPost);
 
     // ADD CLAIM BUTTON ON EACH POST
-    let button = document.createElement("button");
-    button.innerHTML = "claim me!";
-    document.getElementById("displayPost").appendChild(button);
+    let newButton = document.createElement("button");
+    newButton.innerHTML = "claim me!";
+    document.getElementById("displayPost").appendChild(newButton);
     
     // make each post have white box. text is already green
     newPost.style.background = 'white';
@@ -36,4 +36,6 @@ function submitPost() {
     newPost.style.height = "200px";
     newPost.style.fontSize = "26px";
     newPost.style.lineHeight = "normal";
+
+    newButton.style.marginLeft = "40px";
 }

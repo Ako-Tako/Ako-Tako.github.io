@@ -232,8 +232,17 @@ label {
   .rightColumnContainer{
     order: 0;
     margin-left: 0px;
+    justify-content: center;
   }
   #navBar {
     display: none;
   }
+  #flexContainer {
+    align-items: center;
+  }
+
+  #specialRightButton {
+    margin-left: 120px;
+  }
+  
 }
