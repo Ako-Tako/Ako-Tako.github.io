@@ -164,6 +164,13 @@ input {
     color: #AF90AF;
 }
 
+#mapText{
+    font-size: 45px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Josefin Sans";
+}
+
 /* Media query */
 
 @media screen and (max-width: 1000px){
