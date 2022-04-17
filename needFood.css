@@ -16,7 +16,7 @@ body{
     position: absolute;
 }
 #backGround{
-    position: absolute;
+    position: fixed;
     z-index: -1;
     width: 100%;
     height: 100%;

@@ -103,7 +103,7 @@ button {
 }
 
 #backgroundImage{
-  position: absolute;
+  position: fixed;
   flex: wrap;
   width: 100%;
   height: 100%;
