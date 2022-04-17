@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:ital,wght@1,800&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Josefin Sans');
+
 body{
     margin: 0;
     padding: 0;
@@ -38,8 +40,7 @@ body{
     flex-direction: column;
     margin-bottom: 50px;
     margin-right: 200px;
-    margin-left: 50px;
-
+    margin-left: 100px;
 }
 
 #map{
@@ -53,23 +54,35 @@ body{
     font-weight: bold;
     color: #FFFFFF;
     margin-top: 80px;
-    font-size: 60px;
-    font-family: "ABeeZee";
+    font-size: 85px;
+    font-family: "palatino";
     flex: 1;
+    
     
 }
 .inputTitles{
     color: #FFFFFF;
-    font-family: "ABeeZee";
+    /* font-family: "ABeeZee"; */
+    font-family: 'Josefin Sans';
     margin-bottom: 10px;
+    font-size: 36px;
+
 }
 #theButton{
     margin-top: 25px;
-    font-family: "ABeeZee";
-    font-size: 25px;
-    color: #FFFFFF;
-    background-color: #E8CD97;
-    border-style: solid;
+    font-family: "palatino";
+    font-size: 28px;
+    color: 'black';
+    background-color: #cfb990;
+    border-style: none;
     border-radius: 25px;
 }
 
+input {
+    width: 400px;
+    height: 50px;
+    font-size: 24px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+}

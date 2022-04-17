@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin Sans');
 
 a {
   width: 100px;
@@ -12,10 +13,14 @@ a {
     text-align: center;
     position: relative;
     justify-content: center;
+    font-family: "palatino";
 }
+
 #titleText{
-  font-size: 50px;
+  font-size: 70px;
   padding-top: 100px;
+  font-weight: bold;
+
 }
 #hide1{
   font-size: 30px;
@@ -43,18 +48,22 @@ a {
     align-self: center;
 }
 body{
-  font-family: "ABeeZee";
   color: #fff;
 }
 .title#hide1{
   line-height: 0px;
+  margin-top: 20px;
 }
 
 label {
+
+    font-family: "josefin sans";
     width: 200px;
+    font-size: 28px;
+    font-weight: bold;
 }
 input{
-  border-style: solid;
+  border-style: none;
   border-radius: 40px;
 }
 .flexInputs{
@@ -63,12 +72,14 @@ input{
 }
 button {
     margin-top: 10px;
-    width: 120px;
-    background-color: #e8cd97;
-    color: #fff;
+    width: 180px;
+    height: 50px;
+    background-color: #cf9690;
+    color: black;
     border-style: solid;
     border-radius: 25px;
-    font-size: 25px;
+    font-size: 28px;
+    font-family: "palatino";
 }
 
 #toShow {

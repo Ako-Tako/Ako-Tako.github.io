@@ -23,7 +23,7 @@
   
 
   <div class = "title">
-    <p id="titleText">I have food.</p>
+    <p id="titleText">providing food.</p>
   </div>
 
 
@@ -32,16 +32,10 @@
     <div class = "leftColumnContainer">
       
       <div>
-        <p>Current Postings:</p>
+        <p class = "palatino bold">current postings:</p>
       </div>
 
       <div class = "leftFlexReads"> <!-- To adjust gap of read fields -->
-        <!-- <div>Name:</div>
-        <div>Company:</div>
-        <div>Date:</div>
-        <div>Location:</div>
-        <div>Details:</div>
-        <div>Claimed?</div> -->
 
         <div id = "displayPost"></div>
 
@@ -53,42 +47,42 @@
     <div class = "rightColumnContainer">
       
       <div>
-        <p>New Posting:</p>
+        <p class = "bold palatino">new posting:</p>
       </div> 
 
       <div class = "rightFlexInputs"> <!-- To adjust gap of input fields -->
         
         <div class = "fontSize">
-          <label for="postNameInput">Posting Name:</label> <!-- for must = id -->
+          <label for="postNameInput">posting name:</label> <!-- for must = id -->
           <input type="text" id="postNameInput" name="postNameInput"> <!-- id for css, name for web server  -->
         </div>
 
         <div class = "fontSize">
-          <label for="companyNameInput">Company:</label>
+          <label for="companyNameInput">company:</label>
           <input type="text" id="companyNameInput" name="companyNameInput">
         </div>
 
         <div class = "fontSize">
-          <label for="dateInput" >Date:</label>
+          <label for="dateInput" >date:</label>
           <input type="text" id="dateInput" name="dateInput">
         </div>
       
         <div class = "fontSize">
-          <label for="locationInput">Location:</label>
+          <label for="locationInput">location:</label>
           <input type="text" id="locationInput" name="locationInput">
         </div>
       
         <div class = "fontSize">
-          <label for="detailsInput">Details:</label>
+          <label for="detailsInput">details:</label>
           <input type="text" id="detailsInput" name="detailsInput">
-        </div>
-
-        <div>
-          <button type = "button" class="button" onclick = "submitPost()"> Submit Post!
         </div>
 
       </div> <!-- End rightFlexInputs -->
       
+      <div class>
+        <button type = "button" id = "specialRightButton" class="button" onclick = "submitPost()"> submit post
+      </div>
+
     </div> <!-- End rightFlex -->
 
   </div>

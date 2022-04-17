@@ -8,15 +8,16 @@ function submitPost() {
     let newPost = document.createElement("p");
 
     // &nbsp is a type of white space
-    newPost.innerHTML += "&nbsp&nbspName: ";
+    newPost.innerHTML += "<br>";
+    newPost.innerHTML += "&nbsp&nbsp name: ";
     newPost.innerHTML += name;
-    newPost.innerHTML += "<br>\ &nbsp&nbspCompany: ";
+    newPost.innerHTML += "<br>\ &nbsp&nbsp company: ";
     newPost.innerHTML += company;
-    newPost.innerHTML += "<br>\ &nbsp&nbspDate: ";
+    newPost.innerHTML += "<br>\ &nbsp&nbsp date: ";
     newPost.innerHTML += date;
-    newPost.innerHTML += "<br>\ &nbsp&nbspLocation: ";
+    newPost.innerHTML += "<br>\ &nbsp&nbsp location: ";
     newPost.innerHTML += location;
-    newPost.innerHTML += "<br>\ &nbsp&nbspDetails: ";
+    newPost.innerHTML += "<br>\ &nbsp&nbsp details: ";
     newPost.innerHTML += details;
     newPost.innerHTML += "<br>";
 
@@ -25,13 +26,14 @@ function submitPost() {
 
     // ADD CLAIM BUTTON ON EACH POST
     let button = document.createElement("button");
-    button.innerHTML = "Claim me!";
+    button.innerHTML = "claim me!";
     document.getElementById("displayPost").appendChild(button);
     
     // make each post have white box. text is already green
     newPost.style.background = 'white';
     newPost.style.borderStyle = "none";
     newPost.style.borderRadius = "25px";
-
-    newPost.style.fontSize = "23px";
+    newPost.style.height = "180px";
+    newPost.style.fontSize = "26px";
+    newPost.style.lineHeight = "normal";
 }

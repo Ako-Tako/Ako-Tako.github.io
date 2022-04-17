@@ -24,21 +24,21 @@
 
     <div id = "container">
         <div>
-            <h1 id="mainHeader">I need food.</h1>
+            <h1 id="mainHeader">looking for food.</h1>
         </div>
     </div>
 
     <div id="container2">
         <div id="container2Inner">
-            <h1 class="inputTitles">Location Zip Code:</h1>
+            <h1 class="inputTitles">location zip code:</h1>
 
                 <label for="zipcode"></label>
-                <input type="number" id="zip" name="zip">
+                <input type="text" id="zip" name="zip">
                 
-            <h1 class="inputTitles" >Miles Radius:</h1>
+            <h1 class="inputTitles" >radius (miles):</h1>
                 <label for="miles"></label>
-                <input type="number" id="miles" name="miles">
-                <button id = "theButton" onclick = "initMap()" >Find Nearby Food</button>
+                <input type="text" id="miles" name="miles">
+                <button id = "theButton" onclick = "initMap()" >find nearby food</button>
         </div>
 
         <div id="map"> </div>
