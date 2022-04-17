@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:ital,wght@1,800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    height: 100px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+#logoDiv{
+    justify-self: center;
+    position: absolute;
+}
+#backGround{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+#container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+#container2Inner{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    margin-left: 50px;
+
+}
+
+#map{
+    height: 50vh;
+    width: 70vh;
+    border-radius: 3%;
+    overflow: auto;
+    margin-right: 50px;
+}
+#mainHeader{
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 80px;
+    font-size: 60px;
+    font-family: "ABeeZee";
+    flex: 1;
+    
+}
+.inputTitles{
+    color: #FFFFFF;
+    font-family: "ABeeZee";
+    margin-bottom: 10px;
+}
+#theButton{
+    margin-top: 25px;
+    font-family: "ABeeZee";
+    color: #FFFFFF;
+    background-color: #3B6946;
+}
+

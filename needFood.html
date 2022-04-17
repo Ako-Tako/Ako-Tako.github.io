@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Need Food</title>
+    <link rel="stylesheet" href="needFood.css" />
+    <script defer src="needFood.js"></script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0ucw5518xdzrWd196Tr4S-hQilri21GQ&callback=initMap">
+    </script>
+
+</head>
+<body>
+    <img id="backGround" src="backGroundImageHofu.png" alt="background">
+
+    <div id="logoDiv">
+        <a href="index.html">
+        <img id = "logo" src="hofuTransparent.png" alt="hofuLogo">
+        </a>
+    </div>
+
+    <div id = "container">
+        <div>
+            <h1 id="mainHeader">I need food.</h1>
+        </div>
+    </div>
+
+    <div id="container2">
+        <div id="container2Inner">
+            <h1 class="inputTitles">Location Zip Code:</h1>
+
+                <label for="zipcode"></label>
+                <input type="number" id="zip" name="zip">
+                
+            <h1 class="inputTitles" >Miles Radius:</h1>
+                <label for="miles"></label>
+                <input type="number" id="miles" name="miles">
+                <button id = "theButton" onclick = "initMap()" >Find Nearby Food</button>
+        </div>
+
+        <div id="map"> </div>
+    </div>
+    
+</body>
+</html>
