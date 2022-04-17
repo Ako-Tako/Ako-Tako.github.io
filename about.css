@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap%27');
 
+body{
+  margin: 0px;
+}
+
 .container{
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   font-family: "Josefin Sans";
-
 }
 #backgroundImage{
   position: fixed;
@@ -20,6 +23,7 @@
   font-size: 70px;
   margin-top: 100px;
   color: white;
+  font-family: "palatino";
   /* background-color: blue; */
 }
 .main{
@@ -29,16 +33,11 @@
   /* background-color: pink; */
   margin-top: 20px;
   color: white;
-  font-size: 25px;
+  font-size: 24px;
   margin-left: 100px;
   margin-right: 100px;
 }
-/* .sec1{
-  justify-content: column;
-}
-.sec2{
-  justify-content: column;
-} */
+
 img#logo{
     height: 100px;
     margin-left: 35px;
@@ -48,6 +47,84 @@ img#logo{
     justify-self: center;
     position: absolute;
 }
+
+/* NAVBAR */
+
+#navBar{
+  display:inline-block;
+  margin-top: 40px;
+  white-space: nowrap;
+  justify-content: center;
+  position: absolute;
+}
+#homeDiv{
+  display: inline-block;
+  margin-left: 800px;
+}
+#homeLink{
+  text-decoration: none;
+  font-family: "palatino";
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-right: 50px;
+}
+#homeLink:hover{
+  color: #AE6275;
+}
+#loginDiv{
+  display: inline-block;
+}
+#loginLink{
+  text-decoration: none;
+  font-family: "palatino";
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-right: 50px;
+}
+#loginLink:hover{
+  color: #CF9690;
+}
+#giveDiv{
+  display: inline-block;
+}
+#giveLink{
+  text-decoration: none;
+  font-family: "palatino";
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-right: 50px;
+}
+#giveLink:hover{
+  color: #9AAF96;
+}
+#findDiv{
+  display: inline-block;
+}
+#findLink{
+  text-decoration: none;
+  font-family: "palatino";
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-right: 50px;
+}
+#findLink:hover{
+  color: #CFB990;
+}
+#aboutDiv{
+  display: inline-block;
+}
+#aboutLink{
+  text-decoration: none;
+  font-family: "palatino";
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-right: 50px;
+  white-space: nowrap;
+}
+#aboutLink:hover{
+  color: #AF90AF;
+}
+
 @media screen and (max-width: 1000px){
   #titleText{
     font-size: 50px;
@@ -60,6 +137,11 @@ img#logo{
     font-size: 20px;
     margin-bottom: 50px;
   }
+  #navBar{
+    display: none;
+  }
 }
+
+
   
   
