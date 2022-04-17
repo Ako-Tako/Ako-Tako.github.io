@@ -5,12 +5,12 @@
   align-content: center;
   align-items: center;
   font-family: "ABeeZee";
-
 }
+
 #backgroundImage{
   position: absolute;
   flex: wrap;
-  min-width: 100%;
+  width: 100%;
   height: 100%;
   z-index: -10;
 }
