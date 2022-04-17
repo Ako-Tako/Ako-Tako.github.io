@@ -54,7 +54,7 @@ body{
     font-weight: bold;
     color: #FFFFFF;
     margin-top: 80px;
-    font-size: 85px;
+    font-size: 70px;
     font-family: "palatino";
     flex: 1;
     
@@ -65,13 +65,13 @@ body{
     /* font-family: "ABeeZee"; */
     font-family: 'Josefin Sans';
     margin-bottom: 10px;
-    font-size: 36px;
+    font-size: 32px;
 
 }
 #theButton{
     margin-top: 25px;
     font-family: "palatino";
-    font-size: 28px;
+    font-size: 32px;
     color: 'black';
     background-color: #cfb990;
     border-style: none;
@@ -163,3 +163,36 @@ input {
 #aboutLink:hover{
     color: #AF90AF;
 }
+
+/* Media query */
+
+@media screen and (max-width: 1000px){
+    #container2{
+      flex-direction: column;
+      margin-top: 50px;
+    }
+    #container2Inner{
+      order: 0;
+      margin: 0px;
+      align-self: center;
+    }
+    #map{
+      order: 1;
+      margin-top: 30px;
+      align-self: center;
+      margin-bottom: 35px;
+    }
+    #backGround{
+      object-fit: cover;
+      position: fixed;
+    }
+    #mainHeader{
+      margin-top: 140px;
+      font-size: 50px;
+    }
+    #navBar {
+        display: none;
+    }
+
+
+  }

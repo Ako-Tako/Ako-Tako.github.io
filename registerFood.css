@@ -20,7 +20,7 @@ a {
   font-size: 70px;
   padding-top: 100px;
   font-weight: bold;
-
+  font-family: "palatino"
 }
 #hide1{
   font-size: 30px;
@@ -79,7 +79,7 @@ button {
     color: black;
     border-style: solid;
     border-radius: 25px;
-    font-size: 28px;
+    font-size: 32px;
     font-family: "palatino";
 }
 
@@ -192,4 +192,37 @@ button {
 }
 #aboutLink:hover{
   color: #AF90AF;
+}
+
+/* Media query */
+
+@media screen and (max-width: 1000px){
+  #backgroundImage{
+    object-fit: cover;
+    position: fixed;
+  }
+  #navBar {
+    display: none;
+  }
+
+  label {
+    font-size: 26px;
+  }
+
+  .flexInputs {
+    width: 475px;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  button {
+    margin-left: 135px;
+  }
+
+  #hide7 {
+    font-size: 26px;
+  }
+
 }

@@ -12,7 +12,7 @@
 #titleText{
   padding-top: 100px;
   margin-top: 0px;
-  font-size: 60px;
+  font-size: 70px;
   font-size: 85px;
 
 }
@@ -69,7 +69,7 @@ button{
   border-radius: 25px;
   background-color: #9aaf96;
   color: black;
-  font-size: 36px;
+  font-size: 32px;
   width: 300px;
   margin-top: 30px;
 }
@@ -207,4 +207,33 @@ label {
 }
 #aboutLink:hover{
   color: #AF90AF;
+}
+
+/* Media query */
+
+@media screen and (max-width: 1000px){
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  #titleText{
+    font-size: 50px;
+    margin-top: 30px;
+  }
+  #backgroundImage{
+    object-fit: cover;
+  }
+  #flexContainer{
+    flex-direction: column;
+  }
+  .leftColumnContainer{
+    order: 1;
+  }
+  .rightColumnContainer{
+    order: 0;
+    margin-left: 0px;
+  }
+  #navBar {
+    display: none;
+  }
 }
