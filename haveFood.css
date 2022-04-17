@@ -1,0 +1,93 @@
+/* @import url("https://fonts.google.com/specimen/ABeeZee?preview.text=h%20o%20f%20u%20.%20register%20food&preview.text_type=custom#standard-styles"); */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:ital,wght@1,800&display=swap');
+
+.title {
+  text-align: center;
+  font-family: "ABeeZee";
+  color: #ffffff;
+}
+#titleText{
+  padding-top: 100px;
+  margin-top: 0px;
+  font-size: 60px;
+}
+body{
+  margin: 0px;
+}
+
+#flexContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  font-family: "ABeeZee";
+  color: #ffffff;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+
+.leftColumnContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  margin-right: 70px;
+  /* font-family: "ABeeZee";
+  color: #ffffff; */
+}
+#displayPost{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: green;
+}
+.rightColumnContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  margin-left: 70px;
+}
+
+.rightFlexInputs {
+  /* This appears to inherit display flex and column dir. Maybe flex 50%? */
+  
+}
+
+
+.centerText {
+  text-align: center;
+}
+button{
+  font-family: "ABeeZee";
+  border-style: none;
+  border-radius: 25px;
+  background-color: #e8cd97;
+  color: #fff;
+}
+input{
+  font-family: "ABeeZee", inherit ;
+  color: #3b6946;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: #fff;
+  margin: 5px;
+}
+p{
+  font-size: 30px;
+}
+
+#backgroundImage{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+}
+#logo{
+    height: 100px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+#logoDiv{
+    justify-self: center;
+    position: absolute;
+}
