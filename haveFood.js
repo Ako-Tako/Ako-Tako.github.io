@@ -8,15 +8,15 @@ function submitPost() {
     let newPost = document.createElement("p");
 
     // &nbsp is a type of white space
-    newPost.innerHTML += "&nbspName: ";
+    newPost.innerHTML += "&nbsp&nbspName: ";
     newPost.innerHTML += name;
-    newPost.innerHTML += "<br>\ &nbspCompany: ";
+    newPost.innerHTML += "<br>\ &nbsp&nbspCompany: ";
     newPost.innerHTML += company;
-    newPost.innerHTML += "<br>\ &nbspDate: ";
+    newPost.innerHTML += "<br>\ &nbsp&nbspDate: ";
     newPost.innerHTML += date;
-    newPost.innerHTML += "<br>\ &nbspLocation: ";
+    newPost.innerHTML += "<br>\ &nbsp&nbspLocation: ";
     newPost.innerHTML += location;
-    newPost.innerHTML += "<br>\ &nbspDetails: ";
+    newPost.innerHTML += "<br>\ &nbsp&nbspDetails: ";
     newPost.innerHTML += details;
     newPost.innerHTML += "<br>";
 
@@ -32,4 +32,6 @@ function submitPost() {
     newPost.style.background = 'white';
     newPost.style.borderStyle = "none";
     newPost.style.borderRadius = "25px";
+
+    newPost.style.fontSize = "23px";
 }

@@ -39,7 +39,7 @@ body{
   display: inline-block;
   width: 100%;
   height: 100%;
-  color: green;
+  color: black;
 }
 .rightColumnContainer {
   display: flex;
@@ -63,6 +63,7 @@ button{
   border-radius: 25px;
   background-color: #e8cd97;
   color: #fff;
+  font-size: 25px;
 }
 input{
   font-family: "ABeeZee", inherit ;
@@ -90,4 +91,10 @@ p{
 #logoDiv{
     justify-self: center;
     position: absolute;
+}
+.fontSize {
+  font-size:23px;
+}
+.leftFlexReads {
+  transform: translateY(-30px);
 }
