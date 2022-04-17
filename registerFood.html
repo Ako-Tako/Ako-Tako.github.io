@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hofu: register</title>
+    <link rel="stylesheet" type="text/css" href="registerFood.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+
+<body>
+  <div id="logoDiv">
+        <a href="index.html">
+        <img id = "logo" src="hofuTransparent.png" alt="hofuLogo">
+        </a>
+    </div>
+  <img id="backgroundImage" src="https://cdn.discordapp.com/attachments/963996193581592587/964966486059941998/image_1.png">
+    <div class="container">
+    <div class = "title" >
+        <p id="titleText"> r e g i s t e r .</p> 
+    </div>
+        
+    <div class = "title" id = "hide1">
+         <p>or <u> login.</u></p> <!-- <u> UNDERLINE -->
+    </div>
+
+    <div class = "columnFlexContainer"> 
+
+
+        <!-- INPUT FIELDS -->
+        <div class = "flexInputs" id = "hide2">
+            <label for="nameInput">Your full name:</label>
+            <input type="text" id="nameInput" name="nameInput">
+        </div>
+
+        <div class = "flexInputs" id = "hide3">
+            <label for="companyName">Business / Nonprofit Name:</label>
+            <input type="text" id="companyName" name="companyName">
+        </div>
+
+        <div class = "flexInputs" id = "hide4">
+            <label for="taxIDInput">9-digit Tax ID:*</label>
+            <input type="text" id="taxIDInput" name="taxIDInput">
+        </div>
+
+        <div class = "flexInputs" id = "hide5">
+            <label for="emailInput">Email:</label>
+            <input type="text" id="emailInput" name="emailInput">
+        </div>
+        <!-- END INPUT FIELDS -->
+
+        <!-- BUTTON -->
+        <div class = "flexInputs" id = "hide6">
+            <button type = "button" onclick = "clickRegister()"> Register! </button>
+        </div>
+
+        
+
+         <!-- GETS SHOWN AFTER REGISTERED -->
+        <div id = "toShow">
+            Thank you for registering with us! We will take a few days 
+            to confirm your identity as a nonprofit or business. 
+            Once that is complete, we will send you an email!
+        </div>
+
+    </div> <!-- End column flex Container -->
+    <!-- PARAGRAPHS -->
+    <div id = "hide7">
+        *We use this information to confirm your identity and 
+        keep our community safe.
+    </div>
+
+    <script src="registerFood.js"></script>
+  </div>
+</body>
+
+
+
+</html>
