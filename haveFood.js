@@ -33,7 +33,7 @@ function submitPost() {
     newPost.style.background = 'white';
     newPost.style.borderStyle = "none";
     newPost.style.borderRadius = "25px";
-    newPost.style.height = "180px";
+    newPost.style.height = "200px";
     newPost.style.fontSize = "26px";
     newPost.style.lineHeight = "normal";
 }

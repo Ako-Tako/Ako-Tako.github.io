@@ -56,15 +56,16 @@ body{
 }
 
 label {
-
     font-family: "josefin sans";
-    width: 200px;
-    font-size: 28px;
+    width: 450px;
+    font-size: 32px;
     font-weight: bold;
 }
 input{
   border-style: none;
   border-radius: 40px;
+  font-family: "josefin sans";
+  width: 400px;
 }
 .flexInputs{
   margin: 10px;
@@ -87,7 +88,8 @@ button {
     width: 300px;
     line-height: 30px;
     display: none;
-    font-size: 20px;
+    font-size: 28px;
+    font-family: "josefin sans";
 }
 #hide7{
   display: flex;
@@ -96,6 +98,8 @@ button {
   justify-content: flex-end;
   margin-left: 20px;
   align-items: center;
+  font-family: "josefin sans";
+  font-size: 28px;
 }
 
 #backgroundImage{
