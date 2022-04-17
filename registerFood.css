@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:ital,wght@1,800&display=swap');
+
+a {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+}
+
 .title {
     display: flex;
     text-align: center;
@@ -20,7 +28,6 @@
 }
 #logoDiv{
     justify-self: center;
-    position: absolute;
 }
 .columnFlexContainer {
     display: flex;
@@ -40,7 +47,7 @@ body{
   color: #fff;
 }
 .title#hide1{
-  line height: 0px;
+  line-height: 0px;
 }
 
 label {
