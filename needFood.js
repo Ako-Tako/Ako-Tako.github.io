@@ -1,6 +1,6 @@
 const uluru = {lat: 38.5449, lng: -121.7405};
     // The map, centered at Uluru
-    const map = new google.maps.Map(document.getElementById("map"), {
+    const map = new window.google.maps.Map(document.getElementById("map"), {
       zoom: 14,
       center: uluru,
     });
@@ -51,7 +51,5 @@ function initMap() {
   }
 
   
-
-
   // the API CALL https://maps.googleapis.com/maps/api/geocode/json?address=94063&key=AIzaSyB0ucw5518xdzrWd196Tr4S-hQilri21GQ
   // REPLACE WITH THE DESIRED ZIPCODE
